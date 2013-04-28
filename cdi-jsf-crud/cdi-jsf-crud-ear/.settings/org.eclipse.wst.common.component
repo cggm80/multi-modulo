@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="cdi-jsf-crud">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="cdi-jsf-crud.war" deploy-path="/" handle="module:/resource/cdi-jsf-crud-web/cdi-jsf-crud-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cdi-jsf-crud-ejb.jar" deploy-path="/" handle="module:/resource/cdi-jsf-crud-ejb/cdi-jsf-crud-ejb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cdi-jsf-crud-model-1.0.jar" deploy-path="/" handle="module:/resource/cdi-jsf-crud-model/cdi-jsf-crud-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.16.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/log4j/log4j/1.2.16/log4j-1.2.16.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/cdi-jsf-crud-ear"/>
+    </wb-module>
+</project-modules>
